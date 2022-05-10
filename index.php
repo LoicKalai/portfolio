@@ -9,6 +9,7 @@
     
 
     <link href="css/style.css" rel="stylesheet"> <!-- Feuille de style 1-->
+    <link rel="shortcut icon" type="image/png" href="./assets/image/favicon.ico"> <!--FAVICON-->
 
     
     
