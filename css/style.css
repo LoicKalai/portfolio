@@ -33,8 +33,9 @@ body{
     height: 250px;
     margin-top: 1%;
     margin-bottom: 1%;
-    animation: rebond 1.1s both;
+    animation: rebond 1s infinite alternate cubic-bezier(1, 0, 0.755, 1.470);
     animation-iteration-count: infinite;
+    animation-direction: reverse;
     
 }
 
@@ -81,40 +82,14 @@ a{
 
 
 @keyframes rebond {
-    0% {
-      transform: scale(1);
-      animation-timing-function: ease-in;
-      opacity: 0;
+
+    from{
+        transform: scale(1);
     }
-    38% {
-      transform: scale(0.5);
-      animation-timing-function: ease-out;
-      opacity: 1;
+      to {
+        transform: scale(1.1);
+        opacity: 0.9;
     }
-    55% {
-      transform: scale(1);
-      animation-timing-function: ease-in;
-    }
-    72% {
-      transform: scale(1);
-      animation-timing-function: ease-out;
-    }
-    81% {
-      transform: scale(1);
-      animation-timing-function: ease-in;
-    }
-    89% {
-      transform: scale(1);
-      animation-timing-function: ease-out;
-    }
-    95% {
-      transform: scale(1);
-      animation-timing-function: ease-in;
-    }
-    100% {
-      transform: scale(1);
-      animation-timing-function: ease-out;
-    }
-  }
+}
 
 
