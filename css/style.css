@@ -14,7 +14,11 @@
 body{
     height: 98vh;
     width: 100vw;
+
+}
+.accueil{
     background-image: url(../assets/image/aurorbor1.jpg);
+    height: 98vh;
 }
 
 
@@ -52,16 +56,18 @@ body{
 
 .logopetit{
     margin-left: 1%;
+    margin-top: 1%;
 }
 
 
 ul{
     display: flex;
     justify-content:space-between;
+    align-items: center;
     font-size: 1.500em;
     list-style-type: none;
     margin-right: 4%;
-    margin-top: 1%;
+
 
 }
 a:hover{
@@ -75,8 +81,9 @@ a{
     font-family: "Inter_bold";
 }
 
+
  /*-------------------------------------
-             ANIMATION LOGO
+          ANIMATION LOGO ACCUEIL
 ---------------------------------------*/
 
 
@@ -91,5 +98,9 @@ a{
         opacity: 0.9;
     }
 }
+
+ /*-------------------------------------
+             PARTIE PRÉSENTATION
+---------------------------------------*/
 
 
