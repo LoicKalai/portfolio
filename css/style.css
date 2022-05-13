@@ -12,15 +12,15 @@
 }
 
 body{
-    height: 98vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(117.01deg, #020024 0.53%, #10403B 39.38%, #009589 100%);
 
 }
 .accueil{
     background-image: url(../assets/image/aurorbor1.jpg);
     height: 100vh;
 }
-
 
 
 .placelogo{
@@ -62,11 +62,14 @@ body{
 
 ul{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
-    font-size: 1.500em;
+    font-size: 1.300em;
     list-style-type: none;
     margin-right: 4%;
+    position:fixed;
+    width: 100%;
+    padding: 0;
 
 
 }
@@ -86,8 +89,6 @@ a{
           ANIMATION LOGO ACCUEIL
 ---------------------------------------*/
 
-
-
 @keyframes rebond {
 
     from{
@@ -99,8 +100,13 @@ a{
     }
 }
 
+
+
+
  /*-------------------------------------
              PARTIE PRÉSENTATION
 ---------------------------------------*/
-
+.presentation{
+    height: 100vh;
+}
 
