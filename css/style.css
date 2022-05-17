@@ -1,5 +1,6 @@
 *{
     margin: 0;
+
 }
 
 @font-face {
@@ -15,6 +16,7 @@ body{
     height: 100%;
     width: 100%;
     background: linear-gradient(117.01deg, #020024 0.53%, #10403B 39.38%, #009589 100%);
+    overflow-x:hidden;
 
 }
 .accueil{
@@ -23,7 +25,7 @@ body{
 }
 
 .trail { /* Animation souris */
-    position: absolute;
+    position:absolute;
     height: 15px; width: 15px;
     border-radius: 15px;
     background-color: #01eca9;
@@ -39,6 +41,7 @@ body{
     position: absolute;
     margin-top: 20vh;
     margin-left: 38vw;
+
 }
 .logo{
     height: 250px;
@@ -110,10 +113,4 @@ a{
 
 
 
- /*-------------------------------------
-             PARTIE PRÉSENTATION
----------------------------------------*/
-.presentation{
-    height: 100vh;
-}
 
