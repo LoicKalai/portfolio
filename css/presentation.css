@@ -55,3 +55,27 @@
 .greekflag{
     height: 30px;
 }
+.btnCV{
+    height: 7vh;
+    width: 12%;
+    font-family: "Inter_Regular";
+    font-weight: bold;
+    color: #f5f5f5;
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 85%;
+    background:transparent;
+    border: 1px solid #01ECA9;
+    box-shadow: 4px 4px 4px #01ECA9;
+    border-radius: 5px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+
+.btnCV:hover{
+    border: none;
+    background-color: #01ECA9;
+    box-shadow: none;
+    color: #10403b;
+}
