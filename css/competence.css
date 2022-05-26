@@ -1,0 +1,13 @@
+/*SECTION COMPETENCE*/
+
+.competence{
+    height: 100vh;
+}
+
+.tcompetence{
+    font-size: 3.125em;
+    color: #f5f5f5;
+    font-family: "Volkorn_Bold";
+    text-align: center;
+    margin-top: 15%;
+}
