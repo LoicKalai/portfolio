@@ -23,23 +23,26 @@
 <!------------------------------------ACCUEIL------------------------------------------>
 <section id="Développeur" class="accueil">
     <!--NAV-->
-    <ul>
-        <img src="./assets/image/logo_petit.svg" class="logopetit" alt="Logo petit Loïc">
-       <li><a href="#Développeur">Accueil</a></li>
-       <li><a href="#Loïc">À propos</a></li>
-       <li><a href="#Projets">Projets</a></li>
-       <li><a href="#Labs">Labs</a></li>
-       <li><a href="#Contact">Contact</a></li>
-    </ul>
+    <div id="navbar" class="navbar">
+        <ul>
+            <img src="./assets/image/logo_petit.svg" class="logopetit" alt="Logo petit Loïc">
+           <li><a href="#Développeur">Accueil</a></li>
+           <li><a href="#Loïc">À propos</a></li>
+           <li><a href="#Projets">Projets</a></li>
+           <li><a href="#Labs">Labs</a></li>
+           <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+
 
     <!--Fin de NAV-->
 
 
     <!--LOGO-->
    <div class="placelogo"> <!--PLACER MON LOGO-->
-       <p class="dev" name="Développeur">Développeur</p>
+       <h1 class="dev" name="Développeur">Développeur</h1>
        <img src="./assets/image/logo.svg" class="logo" alt="Logo Loïc KALAIDJOGLOU">
-       <p class="web">Web</p>
+       <h1 class="web">Web</h1>
    </div>
     <!--Fin du LOGO-->
 
@@ -49,7 +52,7 @@
 <!--------------------------------------SECTION Présentation------------------------------------>
 
 <section id="Loïc" class="presentation">
-    <h1 class="apropos"> À propos de moi</h1>
+    <h2 class="subtitle"> À propos de moi</h2>
 
         <div class="placelogo3">
             <img src="/assets/image/logo3.png" class="logo3" alt="Memoji Loïc en cercle fond aurorebor.">
@@ -70,7 +73,7 @@
 <!------------------------------------SECTION Compétences----------------------------------->
 
 <section class="competence">
-    <h2 class="tcompetence">Compétences</h2>
+    <h2 class="tcompetence subtitle">Compétences</h2>
     <div class="place3cont"> <!--CONTAINER DES 3 BLOCS-->
 
         <div class="bloc1"> <!--Premier bloc-->
@@ -120,11 +123,24 @@
 
 <!--------------------------------------SECTION Projets-------------------------------------->
 
-<section id="Projets" class="projets">
+<section id="projets" class="projets">
+
+    <h2 class="proj subtitle">Mes Projets</h2>
 
     <div class="wrapper-card">
-        <div class="card">
-            Magic Card
+        <div class="wrap-place-card"> <!--placement des card-->
+            <div class="card">
+                <div class="show-hov">
+                    <div class="hover-card">  
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam iusto atque animi vero. Tempora placeat velit obcaecati non? 
+                    Placeat asperiores blanditiis recusandae quisquam, cum sint aliquam dicta in alias molestias.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                Magic Card
+            </div>
         </div>
     </div>
 
